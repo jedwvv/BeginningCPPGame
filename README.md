@@ -6,4 +6,4 @@ When modifying code from the book and most of the program is modified or overhau
 
 ## Notes:
 - Coming from a Python background, I challenged myself with the earlier exercises to make them more interesting, adding additional features from the exercise requirement(s). These are commented in specific detail where it occurs. This is entirely for personal benefit.
-- This also means that as the concepts become more unfamiliar to me, it became more beneficial to directly address the exercise goals in order to understand the new C++ concepts.
+- As the explored concepts progressed in complexity, it became more beneficial for me to directly address the exercise goals in order to focus on the unfamiliar C++ concepts.  
