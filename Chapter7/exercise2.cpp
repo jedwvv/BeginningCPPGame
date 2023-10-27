@@ -55,7 +55,7 @@ void askText(const string* const prompt, string* const response)
     cin >> *response;
 }   
 
-//Inputs: constant pointer to constant prompt. and constant pointer to response.
+//Same as askTest but using a pointer to integer data type instead.
 void askNumber(const string* const prompt, int* const response)
 {
     cout << *prompt;
@@ -88,45 +88,3 @@ void tellStory(const string* const name, const string* const noun, const int* co
     cout << *verb;
     cout << " for.";
 }
-
-// //Inputs: pointer to a constant[prompt] and pointer to nonconstant[response]
-// void askText(string* prompt, string* response)
-// {
-//     cout << *prompt;
-//     cin >> *response;
-// }
-
-// //Same as above but with integer data type
-// void askNumber(string* prompt, int* response)
-// {
-//     cout << *prompt;
-//     cin >> *response;
-// }
-
-// //Inputs: constant pointers to constants for each variable
-// void tellStory(string* name, string* noun, int* number, string* bodyPart, string* verb)
-// {
-//     cout << "\nHere’s your story:\n";
-//     cout << "The famous explorer ";
-//     cout << *name;
-//     cout << " had nearly given up a life-long quest to find\n";
-//     cout << "The Lost City of ";
-//     cout << *noun;
-//     cout << " when one day, the ";
-//     cout << *noun;
-//     cout << " found the explorer.\n";
-//     cout << "Surrounded by ";
-//     cout << *number;
-//     cout << " " << *noun;
-//     cout << ", a tear came to ";
-//     cout << *name << "’s ";
-//     cout << *bodyPart << ".\n";
-//     cout << "After all this time, the quest was finally over. ";
-//     cout << "And then, the ";
-//     cout << *noun << "\n";
-//     cout << "promptly devoured ";
-//     cout << *name << ". ";
-//     cout << "The moral of the story? Be careful what you ";
-//     cout << *verb;
-//     cout << " for.";
-// }
