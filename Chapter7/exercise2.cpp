@@ -1,13 +1,12 @@
 // Original Mad Lib Program saved in a separate file, directly copied from the book
 // Goal: Identify where POINTERS can be used (specifics below)
-//          - We can use pointers instead of references in Chapter6/exercise1.cpp
-//          - As a benefit, we can use ONE pointer for each data type instead of many references.
+//      - We can use pointers in place of references in Chapter6/exercise1.cpp
 
 // Using the ideas above, we can have EXACTLY ONE object for each important variable.
 // Functions do not ever (copy) or make new objects.
 // Implementation details:
 //      1) Declare the variables ONLY in main.
-//      2) Initialise a pointer and a pointer to a constant
+//      2) Pass only pointers to constants and constant pointers to constants to functions
 
 
 //Note: most content is copy pasted with the sole purpose of making the passing of arguments more efficient.
@@ -48,7 +47,9 @@ int main()
     return 0;
 }
 
-//Inputs: constant pointer to constant prompt. and constant pointer to response.
+//Inputs: constant pointer to constant[prompt] and constant pointer[response].
+// constant pointer to constant for 'prompt' since it is unchanged in function and it does not change what it points to.
+// constant pointer for 'response' since its value changes but it does not change what it points to.
 void askText(const string* const prompt, string* const response)
 {
     cout << *prompt;
