@@ -22,7 +22,7 @@ class Critter
         int m_Boredom;
         int GetMood() const;
         void PassTime(int time = 1);
-        void Express();
+        void Express(); //Add Critter::Express to hint at mood
 };
 
 Critter::Critter(int hunger, int boredom):
@@ -40,7 +40,7 @@ void Critter::PassTime(int time)
 {
     m_Hunger += time;
     m_Boredom += time;
-    Express();
+    Express(); //Express if hungry, bored or both.
 }
 
 void Critter::Express()
