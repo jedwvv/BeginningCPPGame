@@ -7,4 +7,4 @@ For example in Chapter 6 & 7 exercises, functions are rewritten to make them mor
   
 ### Notes:  
 - Coming from a Python background, I challenged myself with the earlier exercises to make them more interesting, adding additional features from the exercise requirement(s). These are commented in specific detail where it occurs. This is entirely for personal benefit.  
-- As the concepts progressed in complexity (beginning Chapter 5), it became more beneficial for me to directly address the exercise goals in order to focus on the unfamiliar C++ concepts.   
+- As the concepts progressed in complexity (beginning Chapter 6), it became more beneficial for me to directly address the exercise goals in order to focus on the unfamiliar C++ concepts.   
