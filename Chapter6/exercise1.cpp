@@ -1,19 +1,18 @@
 // Original Mad Lib Program saved in a separate file, directly copied from the book
+// The code flows the exact same as madlib.cpp but with numerous changes to functions and function calls.
+
 // Goal: Identify where references can be used (specifics below)
-//      -   Each string literal can be referenced to avoid making copies.
-//      -   Use constant references for user prompts, since the function does not modify them.
-//      -   Use non-constant references for user inputs which are returned also as references.
+// -   Each string literal can be referenced to avoid making copies.
+// -   Use constant references for user prompts, since the function does not modify them.
+// -   Use non-constant references for user inputs which are returned also as references.
 
 // Using the ideas above, we can have EXACTLY ONE object for each important variable.
 // Functions do not ever (copy) or make new objects.
 // Implementation details:
 //      1) Declare the variables ONLY in main.
-//      3) Passing those variables as references to the functions to be modified in place, so no return values are required.
-//      4) Additionally, the prompts are passed as constant references
+//      2) Passing those variables as references to the functions to be modified in place.
+//      4) Additionally, the prompts are passed as constant references.
 
-
-//Note: most content is copy pasted with the sole purpose of making the passing of arguments more efficient.
-//Looking at the function prototype, only references are ever passed and nothing is returned(so nothing is copied)
 #include <iostream>
 #include <string>
 using namespace std;
