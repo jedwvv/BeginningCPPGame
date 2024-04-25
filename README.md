@@ -6,5 +6,5 @@ The original unmodified code is also included in cases where I overhaul or make 
 For example in Chapter 6 & 7 exercises, functions are rewritten to make them more efficient via the use of references and/or pointers, and so the main function is also modified in numerous ways.  
   
 ### Notes:  
-- Coming from a Python background, I challenged myself with the earlier exercises to make them more interesting, including additional features from the exercise requirement(s). These are commented in specific detail where it occurs. This is entirely for personal benefit.  
+- Coming from a Python background, I challenged myself with the earlier exercises to make them more interesting, including additional features from the exercise requirement(s). These are commented in specific detail where it occurs. This is entirely for personal interest.  
 - Conversely, as the concepts became more unfamiliar, it was more beneficial for me to directly address the exercise goals in order to focus on the new concepts.   
